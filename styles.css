@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body {
+
+
+
+
+
+
+    font-family: 'poppins', sans-serif, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #11133;
+  }
+  header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-8Zk7Y5X02+sx2iU0o3Fz1kj6Ez0pJF6nlQLK5wwhGoVvcJv8FzJlsVosN3c6DR6WS2DmPCnGZfnLny3u2GprA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* Example CSS for styling the email icon */
+    .email-icon {
+      color: #007bff; /* Change the color to your preferred color */
+      font-size: 24px; /* Change the size of the icon */
+      margin-right: 5px; /* Add some space between the icon and text */
+    }
+  </style>
+  
+
+
+  header h1 {
+    margin: 0;
+  }
+  img{
+    width: 80%;
+    height: 80%;
+    display : block;
+    margin : right;
+  }
+  button{
+    width: 17rem;
+    border-radius: 90px;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+  }
+  button:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 50px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+  }
+  .small-image {
+    display: inline-block;
+    margin-top: right;
+    width: 50%;
+    height: 25%;
+}
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav li a:hover {
+    color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  section {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #007bff;
+  }
+  
+  .project-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
